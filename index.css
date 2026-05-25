@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    background: #1a6b5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 2rem 2.5rem;
+    width: 100%;
+    max-width: 420px;
+}
+
+.card h1 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 1.5rem;
+}
+
+.cpf-gerado {
+    background: #bebdbd;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111;
+    letter-spacing: 2px;
+    font-family: monospace;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 12px;
+    background-color: #1d9e75;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+    background-color: #0f6e56;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
